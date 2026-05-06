@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía ATV — Centro Veterinario Salteras</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <h1>🐾 Centro Veterinario <em>Salteras</em></h1>
+    <p>Guía de incorporación · ATV</p>
+    <nav id="tabs">
+      <button class="tab-btn active" data-sec="procedimientos">📋 Procedimientos</button>
+      <button class="tab-btn" data-sec="situaciones">💬 Situaciones</button>
+      <button class="tab-btn" data-sec="diarrea">🔀 Árbol diarrea</button>
+      <button class="tab-btn" data-sec="simulador">🎯 Simulador</button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- PROCEDIMIENTOS -->
+    <section id="sec-procedimientos" class="seccion activa">
+      <h2 class="tit">Procedimientos básicos</h2>
+      <p class="sub">Lo que necesitas saber para el día a día desde el primer momento.</p>
+
+      <div class="proc">
+        <div class="proc-titulo">🗓️ Cómo gestionar las citas <span class="tag tag-verde">Qvet</span></div>
+        <div class="proc-body">
+          <ul>
+            <li>Vacunas y revisiones: deja <strong>15 minutos</strong> entre cita y cita.</li>
+            <li>Si la cita puede necesitar analítica o prueba de imagen: deja <strong>30 minutos</strong>.</li>
+            <li>Cuando tengas dudas sobre el tiempo necesario, pregunta al veterinario antes de confirmar.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proc">
+        <div class="proc-titulo">📱 Recordatorios de cita por WhatsApp <span class="tag tag-verde">Diario</span></div>
+        <div class="proc-body">
+          <ul>
+            <li>Cada día hay que enviar los recordatorios del día siguiente desde Qvet.</li>
+            <li>Hazlo a primera hora o al final de la jornada, lo que mejor encaje.</li>
+            <li>Si un cliente no tiene WhatsApp registrado, avísalo por teléfono.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proc">
+        <div class="proc-titulo">🔍 Buscar a un propietario en Qvet</div>
+        <div class="proc-body">
+          <p>Cuando alguien llame pidiendo hablar con un veterinario o necesites consultar historial:</p>
+          <ul>
+            <li>Pide los <strong>apellidos del propietario</strong> y búscalo en Qvet.</li>
+            <li>Revisa si tiene revisiones activas, patología en curso o resultados pendientes.</li>
+            <li>Con esa información ya puedes dar una respuesta contextualizada.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="proc">
+        <div class="proc-titulo">📷 WhatsApp de la clínica para fotos</div>
+        <div class="proc-body">
+          <p>Cuando un cliente describe algo que necesita que lo vea un veterinario (herida, bulto, zona inflamada), pídele que mande una foto al WhatsApp de la clínica.</p>
+          <div class="consejo">
+            <span>💡</span>
+            <span>Especialmente útil cuando la consulta llega por teléfono y el cliente se pone pesado. Le das una salida concreta y te liberas de seguir especulando sin ver nada.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proc">
+        <div class="proc-titulo">⚖️ Nueva ley del medicamento <span class="tag tag-rojo">Importante</span></div>
+        <div class="proc-body">
+          <p>Desde la nueva Ley del Medicamento, <strong>no se puede recetar antibiótico sin justificación clínica</strong>. Si alguien pide una receta sin haber pasado por consulta, hay que decirle que necesita venir para que el veterinario lo valore. Sin excepción.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SITUACIONES -->
+    <section id="sec-situaciones" class="seccion">
+      <h2 class="tit">Situaciones difíciles</h2>
+      <p class="sub">Pulsa en cada caso para ver cómo gestionarlo.</p>
+
+      <div class="tarjeta">
+        <div class="tarjeta-hdr">
+          <span class="tt">📞 El cliente quiere hablar con un veterinario</span>
+          <span class="ch">▼</span>
+        </div>
+        <div class="tarjeta-body">
+          <p>Los veterinarios normalmente están en consulta y no atienden el teléfono. Tu misión es recoger la información y que el cliente quede tranquilo.</p>
+          <div class="burbuja bv"><div class="burbuja-label">Qué hacer</div>Pide los apellidos del propietario, búscalo en Qvet y mira su historial. ¿Tiene alguna patología en seguimiento o resultados pendientes?</div>
+          <div class="burbuja bv"><div class="burbuja-label">Qué decir</div>"Ahora mismo los compañeros están en consulta, pero déjame mirar su ficha un momento… He visto que [tiene revisión pendiente / están esperando resultados]. Le voy a comentar y le llamamos en cuanto podamos, ¿le parece bien?"</div>
+          <div class="consejo"><span>💡</span><span>Si no tiene nada pendiente y el asunto parece urgente, pregúntale brevemente de qué se trata para poder transmitírselo bien al veterinario.</span></div>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tarjeta-hdr">
+          <span class="tt">🩹 Cliente que intenta hacer consulta por teléfono (herida o bulto)</span>
+          <span class="ch">▼</span>
+        </div>
+        <div class="tarjeta-body">
+          <p>Quiere que le diagnostiques por teléfono. Sin ver nada no puedes decirle nada útil, y no es tu función.</p>
+          <div class="burbuja bv"><div class="burbuja-label">Qué decir</div>"Entiendo que está preocupado, pero sin verlo es difícil valorarlo bien. ¿Podría mandarnos una foto al WhatsApp de la clínica? En cuanto los veterinarios la vean le decimos algo."</div>
+          <div class="burbuja bn"><div class="burbuja-label">Si insiste</div>"De verdad que quiero ayudarle, pero si le digo algo sin verlo me arriesgo a equivocarme y eso no le beneficia a su mascota. Con la foto ya podemos valorarlo mucho mejor."</div>
+          <div class="consejo"><span>💡</span><span>Esta técnica también sirve para cortar llamadas largas. Les das una tarea concreta y puedes cerrar con naturalidad.</span></div>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tarjeta-hdr">
+          <span class="tt">💊 Piden receta de antibiótico sin haber venido a consulta</span>
+          <span class="ch">▼</span>
+        </div>
+        <div class="tarjeta-body">
+          <p>No se puede hacer. Hay una ley detrás y hay que explicarlo con claridad pero sin que suene a regañina.</p>
+          <div class="burbuja bv"><div class="burbuja-label">Qué decir</div>"Por la nueva ley del medicamento, ya no es posible recetar antibiótico sin que el veterinario haya visto al animal y tenga una justificación clínica. Tendría que pasar por consulta para que lo valoren."</div>
+          <div class="burbuja bn"><div class="burbuja-label">Si protesta</div>"Lo entiendo, y sé que puede parecer un trámite, pero esta normativa la tenemos que cumplir todos. ¿Le busco un hueco esta semana?"</div>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tarjeta-hdr">
+          <span class="tt">👂 Cliente pide las gotas de la otitis que le mandaron antes</span>
+          <span class="ch">▼</span>
+        </div>
+        <div class="tarjeta-body">
+          <p>Las otitis recurrentes no siempre son iguales. El tratamiento que funcionó una vez puede no ser el adecuado ahora.</p>
+          <div class="burbuja bv"><div class="burbuja-label">Qué decir</div>"Para las otitis hay que hacer una citología para ver qué está causando la infección, porque no siempre es lo mismo. Si le damos el mismo tratamiento sin mirarlo, puede que no le funcione. Habría que traerlo a consulta."</div>
+          <div class="burbuja br"><div class="burbuja-label">Si piden Osurnia específicamente</div>"La Osurnia es un tratamiento médico que tiene que aplicar el veterinario, no se puede dispensar para casa."</div>
+          <div class="consejo"><span>💡</span><span>Suelen ser clientes habituales que asumen que basta con repetir. Un tono cercano y explicativo funciona mejor que uno protocolario.</span></div>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="tarjeta-hdr">
+          <span class="tt">🤧 Cliente llama porque su perro tiene diarrea</span>
+          <span class="ch">▼</span>
+        </div>
+        <div class="tarjeta-body">
+          <p>Aquí sí puedes ayudar, pero necesitas hacer las preguntas adecuadas primero.</p>
+          <div class="burbuja bv"><div class="burbuja-label">Preguntas clave</div>¿Es cachorro? · ¿Cómo está de ánimo? · ¿Tiene apetito? · ¿Tiene también vómitos? · ¿Hay sangre o moco en las heces?</div>
+          <div class="burbuja bv"><div class="burbuja-label">Si todo está bien (solo diarrea, sin otros síntomas)</div>"Si está activo, come y no tiene vómitos ni sangre, podéis venir a por dieta intestinal y probióticos. Eso sí, si empeora o aparece cualquier otro síntoma, habría que traerlo a consulta."</div>
+          <div class="burbuja br"><div class="burbuja-label">Si hay sangre, moco, vómitos o es cachorro con mal estado</div>"En ese caso habría que verlo en consulta, porque puede necesitar medicación."</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁRBOL -->
+    <section id="sec-diarrea" class="seccion">
+      <h2 class="tit">Árbol de decisión: diarrea</h2>
+      <p class="sub">Sigue las ramas según las respuestas del cliente.</p>
+
+      <div class="nodo">
+        <div class="nodo-p">🐶 ¿Es cachorro?</div>
+        <div class="nodo-ramas">
+          <div class="nodo-si"><strong>✓ SÍ — </strong>Citar en consulta directamente, no recomendar dieta en casa.</div>
+          <div class="nodo-no"><strong>✗ NO/DUDA — </strong>Es adulto → continuar con preguntas.</div>
+        </div>
+      </div>
+
+      <div class="nodo">
+        <div class="nodo-p">¿Está activo y con buen estado general?</div>
+        <div class="nodo-ramas">
+          <div class="nodo-si"><strong>✓ SÍ — </strong>Está bien → seguir preguntando.</div>
+          <div class="nodo-no"><strong>✗ NO/DUDA — </strong>Está decaído o apático → citar en consulta.</div>
+        </div>
+      </div>
+
+      <div class="nodo">
+        <div class="nodo-p">¿Tiene apetito normal?</div>
+        <div class="nodo-ramas">
+          <div class="nodo-si"><strong>✓ SÍ — </strong>Come → seguir preguntando.</div>
+          <div class="nodo-no"><strong>✗ NO/DUDA — </strong>No quiere comer → citar en consulta.</div>
+        </div>
+      </div>
+
+      <div class="nodo">
+        <div class="nodo-p">¿Tiene también vómitos?</div>
+        <div class="nodo-ramas">
+          <div class="nodo-si"><strong>✓ SÍ — </strong>No tiene vómitos → siguiente pregunta.</div>
+          <div class="nodo-no"><strong>✗ NO/DUDA — </strong>Sí tiene vómitos → citar en consulta.</div>
+        </div>
+      </div>
+
+      <div class="nodo">
+        <div class="nodo-p">¿Hay sangre o moco en las deposiciones?</div>
+        <div class="nodo-ramas">
+          <div class="nodo-si"><strong>✓ SÍ — </strong>No hay → recomendar dieta intestinal + probióticos. Advierte que si empeora, a consulta.</div>
+          <div class="nodo-no"><strong>✗ NO/DUDA — </strong>Sí hay sangre o moco → citar en consulta, necesitará medicación.</div>
+        </div>
+      </div>
+
+      <div class="conclusion">
+        <div class="conclusion-tit">✅ Cuándo recomendar dieta y probióticos</div>
+        <p>Solo si se cumplen <strong>todas</strong> estas condiciones: perro adulto · buen ánimo · come normal · sin vómitos · sin sangre ni moco. En cualquier otro caso, a consulta.</p>
+      </div>
+    </section>
+
+    <!-- SIMULADOR -->
+    <section id="sec-simulador" class="seccion">
+      <h2 class="tit">Simulador de llamadas</h2>
+      <p class="sub">Pon a prueba lo que has aprendido. Elige la respuesta que darías.</p>
+
+      <div id="sim-contenedor">
+        <div id="progreso-txt">Caso 1 de 6</div>
+        <div id="progreso-bar"><div id="progreso-fill"></div></div>
+        <div class="sim-card">
+          <div id="sim-intro"></div>
+          <div id="sim-label">📞 La llamada dice:</div>
+          <div id="sim-caso"></div>
+          <div id="sim-opciones"></div>
+          <div id="sim-feedback"></div>
+          <button id="btn-sig">Siguiente caso →</button>
+        </div>
+      </div>
+
+      <div id="resultado">
+        <div id="nota"></div>
+        <p id="res-txt"></p>
+        <button id="btn-reiniciar">Volver a intentarlo</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/tarjetas.js"></script>
+  <script src="js/simulador.js"></script>
+</body>
+</html>
