@@ -1,4 +1,4 @@
-# Guía ATV — Centro Veterinario Salteras
+# Guía ATV 
 
 Herramienta de incorporación interactiva para Auxiliares Técnicos Veterinarios (ATV).
 
